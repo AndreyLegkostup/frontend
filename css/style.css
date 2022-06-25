@@ -1,0 +1,219 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+.main__container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color:  white;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1)
+}
+/* Main contant title section */
+
+
+.main__contant__section{
+    padding: 100px 90px;
+}
+/* Main contant section */
+.main__contant__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color: #000;
+}
+/*About me section*/
+
+.about__me__section{
+    margin: 0 0 40px 0;
+}
+.about__me__profession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 700;
+    margin:0 0 20px 0;
+    color: #000;
+}
+.my__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin:0 0 25px 0;
+    color: #000;
+}
+.my__name__description{
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* My project section */
+
+.my__project__section{
+   margin: 0 0 50PX 0; 
+}
+.my__project__list{
+    padding: 0 0 0 17px;
+}
+.my__project__item{
+    color: #000;
+    font-weight: 700;
+    
+}
+.my__project__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+.my__project__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my__project__bracket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+/* My worke expirience */
+.my__work__expirience__section{
+    margin-bottom: 40px;
+}
+
+.my__work__expirience__company{
+    color: #FB6D3A;
+}
+.my__work__expirience__position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+    color: #000;
+}
+.my__work__expirience__period{
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;
+margin: 0 0 10px 0;
+}
+.my__work__expirience__divider{
+    color: black;
+
+}
+.my__work__expirience__duties{
+    padding: 0 0 0 18px;
+}
+.my__work__expirience__duty{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my__work__expirience__section__block{
+    margin: 0 0 15px 0;
+}
+/*My education*/
+
+.my__university{
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #FB6D3A;
+}
+.my__specialization{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+}
+.my__education__period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.my__education__divider{
+    color: #000;
+}
+
+/* Sidebar section */
+
+.sidebar__section{
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+img {
+    height: 420px;
+    width: 310px;
+}
+.contacts__section,
+.tech__skills__section,
+.soft__skills__section{
+    margin: 50px 0 0 40px;
+}
+.sidebar__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 10px;
+}
+/* Contacts section */
+
+.contacts__section__type{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 13px;
+}
+.contacts__section__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A;
+}
+/*Skills section*/
+.tech__skills__list,
+.soft__skills__list{
+    padding-left: 17px;
+}
+
+.tech__skills__item,
+.soft__skills__item{
+    color: #FB6D3A
+}
+
+.tech__skills__item__text,
+.soft__skills__item__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+}

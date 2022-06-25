@@ -1,0 +1,156 @@
+body{
+	 font-family: 'Ubuntu', sans-serif;
+	 color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	font-weight: bold;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: rgba(77,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+	padding-bottom: 144px;
+	color: #fff;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.offer{
+	/*margin-top: 147px;*/
+	width: 555px;
+}
+.title{
+	font-size: 30px;
+	line-height: 49px;
+
+
+}
+.title span{
+	font-size: 59px;
+	line-height: 60px;
+	
+}
+.intro{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+	margin: 45px 0;
+	width: 400px;
+}
+.btn{
+	text-align: center;
+	width: 222px;
+	background: #ffd429;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	color: #2e2a1b;
+	padding: 20px 0;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.btn:hover{
+	background: #edc218;
+}
+.travel{
+	margin-top: 25px;
+}
+.future{
+	padding-top: 114px;
+	padding-bottom: 125px;
+}
+.section_title{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 85px;
+	padding-top: 100px;
+}
+.skills{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.skill_title{
+	font-size: 19px;
+	padding-top: 10px;
+}
+.skill{
+	width: 300px;
+	background: url('../img/icons1.jpg') no-repeat top;
+	padding-top: 100px;
+}
+.skill_travel{
+	background: url('../img/icons2.jpg') no-repeat top;
+}
+.skill_values{
+	background: url('../img/icons3.jpg') no-repeat top;
+}
+
+.information{
+	background: #ecf3f8;
+	
+}
+.form{
+	padding-bottom: 5px;
+}
+.input{
+	border: 1px solid #bbbbbb;
+	width: 344px;
+	height: 48px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-bottom: 15px;
+	padding-left: 26px;
+}
+.btn_form{
+	width: 344px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	text-align: center;
+	background: #ffd429;
+	border: 0;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	color: #2e2a1b;
+	padding: 20px 0;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.footer{
+	padding: 60px 0;
+	background: #164d7a;
+}
+.credits{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+}
+

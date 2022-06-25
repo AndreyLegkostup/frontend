@@ -1,0 +1,109 @@
+.html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+	width: 70%;
+	height: 0;
+	padding-bottom: 40%;
+	background: #4c4c4c;
+}
+.slide_img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.slide_img img {
+	width: 100%;
+	height: 100%;
+}
+h2 {
+	position: absolute;
+	color: #cd3434;
+	font-size: 25px;
+	font-weight: 700;
+	left: 45%;
+	top: 55%;
+}
+
+p {
+	position: absolute;
+	color: #fff;
+	letter-spacing: 2px; 
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	right: 15%;
+	left: 17%;
+	top: 65%;
+
+}
+
+#i1, #i2, #i3 {
+	display: none;
+}
+/*.pre, .nxt {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: 
+	z-index: 99;
+	cursor: pointer;
+}*/
+.pre {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: url('../img/icons/pre.png') left no-repeat;
+	z-index: 99;
+	cursor: pointer;
+	left: 0;
+}
+.nxt {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: url('../img/icons/nxt.png') right no-repeat;
+	z-index: 99;
+	cursor: pointer;
+	right: 0;
+}
+.nav {
+	width: 100%;
+	height: 11px;
+	bottom: 5%;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+}
+.dots {
+	top: -5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	background: rgba(88, 88, 88, .6);
+	cursor: pointer;
+}
+.slide_img {
+	z-index: -1;
+}
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three {
+	z-index: 9;
+}
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3 {
+	background: #fff;
+}
